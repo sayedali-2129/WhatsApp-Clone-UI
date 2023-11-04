@@ -1,0 +1,71 @@
+class DataBase {
+  static List<Map<String, dynamic>> ChatContactsdata = [
+    {"name": "Sayed Ali", "message": "Hai", "time": "10.15 PM"},
+    {"name": "John Doe", "message": "Hello", "time": "9.30 AM"},
+    {"name": "Jane Smith", "message": "Good morning", "time": "8.45 AM"},
+    {"name": "David Johnson", "message": "Hi there", "time": "2.00 PM"},
+    {"name": "Mary Brown", "message": "Greetings", "time": "3.45 PM"},
+    {"name": "Ahmed Hassan", "message": "Salam", "time": "6.15 PM"},
+    {"name": "Linda Davis", "message": "Hey", "time": "11.30 AM"},
+    {"name": "Michael Wilson", "message": "How are you?", "time": "1.45 PM"},
+    {"name": "Emily Lee", "message": "Yo", "time": "4.30 PM"},
+    {"name": "James Anderson", "message": "What's up?", "time": "7.15 PM"},
+    {"name": "Sarah Garcia", "message": "Hi friend", "time": "10.45 AM"},
+    {
+      "name": "Christopher Martinez",
+      "message": "Hello there",
+      "time": "5.00 PM"
+    },
+    {"name": "Olivia Rodriguez", "message": "Greetings", "time": "2.30 PM"},
+    {"name": "Daniel Taylor", "message": "Hi", "time": "8.15 AM"},
+    {"name": "Ava Hernandez", "message": "Good evening", "time": "11.45 PM"},
+    {"name": "Matthew Brown", "message": "Hey", "time": "12.30 PM"},
+    {"name": "Sophia Thomas", "message": "How's it going?", "time": "9.00 AM"},
+    {"name": "William Lewis", "message": "Hello, world", "time": "3.15 PM"},
+    {"name": "Amelia Hall", "message": "Hiya", "time": "7.45 PM"},
+  ];
+
+  static List<Map> updatesData = [
+    {"name": "Sayed Ali", "time": "10.15 PM"},
+    {"name": "John Doe", "time": "9.30 AM"},
+    {"name": "Jane Smith", "time": "8.45 AM"},
+    {"name": "David Johnson", "time": "2.00 PM"},
+    {"name": "Mary Brown", "time": "3.45 PM"},
+    {"name": "Ahmed Hassan", "time": "6.15 PM"},
+    {"name": "Linda Davis", "time": "11.30 AM"},
+    {"name": "Michael Wilson", "time": "1.45 PM"},
+    {"name": "Emily Lee", "time": "4.30 PM"},
+    {"name": "James Anderson", "time": "7.15 PM"},
+    {"name": "Sarah Garcia", "time": "10.45 AM"},
+    {"name": "Christopher Martinez", "time": "5.00 PM"},
+    {"name": "Olivia Rodriguez", "time": "2.30 PM"},
+    {"name": "Daniel Taylor", "time": "8.15 AM"},
+    {"name": "Ava Hernandez", "time": "11.45 PM"},
+    {"name": "Matthew Brown", "time": "12.30 PM"},
+    {"name": "Sophia Thomas", "time": "9.00 AM"},
+    {"name": "William Lewis", "time": "3.15 PM"},
+    {"name": "Amelia Hall", "time": "7.45 PM"},
+  ];
+
+  static List<Map> callsData = [
+    {"name": "Sayed Ali", "time": "10.15 PM", "date": "January 5"},
+    {"name": "John Doe", "time": "9.30 AM", "date": "February 14"},
+    {"name": "Jane Smith", "time": "8.45 AM", "date": "March 21"},
+    {"name": "David Johnson", "time": "2.00 PM", "date": "April 10"},
+    {"name": "Mary Brown", "time": "3.45 PM", "date": "May 8"},
+    {"name": "Ahmed Hassan", "time": "6.15 PM", "date": "June 27"},
+    {"name": "Linda Davis", "time": "11.30 AM", "date": "July 12"},
+    {"name": "Michael Wilson", "time": "1.45 PM", "date": "August 3"},
+    {"name": "Emily Lee", "time": "4.30 PM", "date": "September 18"},
+    {"name": "James Anderson", "time": "7.15 PM", "date": "October 29"},
+    {"name": "Sarah Garcia", "time": "10.45 AM", "date": "November 7"},
+    {"name": "Christopher Martinez", "time": "5.00 PM", "date": "December 25"},
+    {"name": "Olivia Rodriguez", "time": "2.30 PM", "date": "January 9"},
+    {"name": "Daniel Taylor", "time": "8.15 AM", "date": "February 22"},
+    {"name": "Ava Hernandez", "time": "11.45 PM", "date": "March 14"},
+    {"name": "Matthew Brown", "time": "12.30 PM", "date": "April 4"},
+    {"name": "Sophia Thomas", "time": "9.00 AM", "date": "May 30"},
+    {"name": "William Lewis", "time": "3.15 PM", "date": "June 16"},
+    {"name": "Amelia Hall", "time": "7.45 PM", "date": "July 1"}
+  ];
+}

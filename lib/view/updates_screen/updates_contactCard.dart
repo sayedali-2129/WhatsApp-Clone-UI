@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_project_2/utils/color_constants/color_contants.dart';
+
 import 'package:sample_project_2/view/updates_screen/circleavatar_stack.dart';
 
 class UpdatesContactCard extends StatelessWidget {

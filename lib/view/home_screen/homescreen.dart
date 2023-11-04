@@ -3,6 +3,7 @@ import 'package:sample_project_2/utils/color_constants/color_contants.dart';
 import 'package:sample_project_2/view/calls_screen/calls_screen.dart';
 import 'package:sample_project_2/view/chat_screen/chat_screen.dart';
 import 'package:sample_project_2/view/group_screen/groupscreen.dart';
+
 import 'package:sample_project_2/view/updates_screen/updates_screen.dart';
 
 class homeScreen extends StatelessWidget {
@@ -37,15 +38,19 @@ class homeScreen extends StatelessWidget {
               icon: Icon(
                 Icons.groups,
               ),
+              height: 35,
             ),
             Tab(
               text: "Chats",
+              height: 35,
             ),
             Tab(
               text: "Updates",
+              height: 35,
             ),
             Tab(
               text: "Calls",
+              height: 35,
             )
           ]),
         ),
